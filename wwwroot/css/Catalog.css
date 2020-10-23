@@ -1,0 +1,8 @@
+.property{
+    display: inline-block;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 40rem;
+    height: 2rem;
+
+}
