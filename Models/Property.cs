@@ -3,28 +3,28 @@ namespace PropertyRental.Models
     public class Property
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string name { get; set; }
 
-        public string Email { get; set; }
+        public string email { get; set; }
 
-        public string Title { get; set; }
+        public string title { get; set; }
 
-        public decimal Price { get; set; }
+        public decimal price { get; set; }
 
-        public string PropertyType { get; set; }
+        public string propertyType { get; set; }
 
-        public int PropertyStories { get; set; }
+        public int propertyStories { get; set; }
 
-        public int PropertySize { get; set; }
+        public int propertySize { get; set; }
 
-        public int Bedrooms { get; set; }
+        public int bedrooms { get; set; }
 
-        public int Bathrooms { get; set; }
+        public int bathrooms { get; set; }
 
-        public bool Parking { get; set; }
+        public bool parking { get; set; }
 
-        public string ImageUrl { get; set; }
+        public string imageUrl { get; set; }
 
-        public string OtherDetails { get; set; }
+        public string otherDetails { get; set; }
     }
 }

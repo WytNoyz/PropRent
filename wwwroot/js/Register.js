@@ -14,7 +14,7 @@ function Property(
 ) {
   this.name = name;
   this.email = email;
-  this.title - title;
+  this.title = title;
   this.price = price;
   this.propertyType = propertyType;
   this.propertyStories = propertyStories;
@@ -37,7 +37,7 @@ function saveProperty() {
   var bedrooms = parseInt($("#txtBedrooms").val());
   var bathrooms = parseInt($("#txtBathrooms").val());
   var parking = $("#inlineRadio1").is(":checked");
-  var imageUrl = $("#txtImage").val();
+  var imageUrl = $("#txtImageUrl").val();
   var otherDetails = $("#txtOtherDetails").val();
   var error = false;
 

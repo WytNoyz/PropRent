@@ -16,9 +16,15 @@ function fetchData() {
 
 function displayProperty(prop) {
   var syntax = `<div class='property' >
-                    <img src="${prop.imageUrl}">
+                    <img class='pimg' src="${prop.imageUrl}">
                     <h5>${prop.title}<h5>
-          Property</div>`;
+                    <h5>${prop.propertySize} SqFt<h5>
+                    <h5>$ ${prop.price}<h5>
+                    <h5>Bedrooms: ${prop.bedrooms}<h5>
+                    <h5>Bathrooms: ${prop.bathrooms}<h5>
+                    <h5>Parking: ${prop.parking}<h5>
+
+                </div>`;
 
   var container = $("#catalog-container");
 
